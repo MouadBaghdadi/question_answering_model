@@ -2,7 +2,7 @@
 
 the SQuAD dataset was downloaded from : https://www.kaggle.com/datasets/buildformacarov/squad-20
 
-I started by loading and pre-processing the SQuAD dataset so it would match the input format, then i fine-tuned the distilbert-base-cased model on a corp of the dataset using these hyperparameters during the training process:
+I started by loading and pre-processing the SQuAD dataset so it would match the input format, then i fine-tuned the distilbert-base-cased model on a crop of the dataset using these hyperparameters during the training process:
     num_train_epochs=3
     gradient_accumulation_steps=2        
     per_device_train_batch_size=32
